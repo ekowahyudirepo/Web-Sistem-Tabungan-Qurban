@@ -1,0 +1,264 @@
+body {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    background: #ffffff;
+}
+
+p {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+.alert-style{
+	position: fixed;
+	z-index:9999;
+	bottom: 20px;
+	right: 20px;
+	padding: 20px;
+}
+
+.preloader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background-color: rgba(255,255,255,.5);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+/*
+.preloader .icon{
+	animation: spin .7s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: translate(0px,20px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}*/
+
+.row.widget{
+	margin: 20px 0 20px 0;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.run-text{
+	padding: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+ul li.nav-item.active{
+	border-bottom: 2px solid #019b4c;
+}
+
+.card.card-style{
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+.card.card-style .card-block{
+	padding: 10px;
+}
+
+
+/**
+*	Navbar
+*/
+.navbar-style{
+	background-color: #fff;
+	padding: 15px;
+}
+
+.navbar-style ul li a{
+	font-size: 16px;
+}
+
+
+.navbar-brand-style{
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 50px;
+}
+
+.navbar-toggler-style{
+	border: 2px solid #019b4c;
+	color: #019b4c;
+}
+
+
+/**
+*	Footer
+*/
+form.saran input.form-control{
+	background-color: rgba(0,0,0,.5);
+	padding: 10px;
+	border: none;
+	color: #ddd;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+section.footer{
+	margin-top: 50px;
+}
+section.footer .title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section.footer i{
+	margin-right: 10px;
+}
+section.footer a{
+	color: #fff;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* Parslay style */
+.parsley-error, .parsley-error:focus{
+    border-color: salmon;
+}
+
+ul.parsley-errors-list li{
+    margin-left: -40px;
+    list-style: none;
+    color: salmon;
+}
+
+/* End Parsley style */
+
+
+/* Card Login , Registrasi */
+.card.login, .card.registrasi{
+	padding: 30px 20px 30px 20px;
+    margin-top: 10px;
+}
+
+/* Label form required style */
+span.required {
+    color: salmon;
+    margin-left: 5px;
+}
+
+
+/* Box Text*/
+.box-text{
+	margin-left: 10px;
+	margin-right: 10px;
+	white-space: nowrap;
+ 	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+/* Get App*/
+.get-app img{
+	margin: 10px;
+}
+
+/* Zoom Image */
+.row.foto img:hover{
+	cursor: pointer;
+	opacity: .5;
+}
+
+/*Overlay Img*/
+.overlay{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 99999;
+	background-color: rgba(0,0,0,.8);
+	display: none;
+}
+.overlay-btn{
+	background-color: black;
+	padding: 20px;
+	text-align: right;
+}
+.overlay-btn a{
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.overlay-content{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+
+/*Input Kode*/
+input.input-kode{
+	display: inline-block;
+	width: 21%;
+	text-align: center;
+	padding: 1rem;
+	font-size: 2rem;
+	margin: 5px;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*Navbar */
+nav.navbar ul.navbar-nav li.nav-item a{
+	font-size: 18px;
+}
+
+/*Form*/
+.form-control:focus{
+	outline: 0;
+	border-color: #28a745 !important;
+	box-shadow: none !important;
+}
+
+
+/* Login */
+.login{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bxlogin{
+    min-width: 300px;
+    max-width: 300px;
+}
